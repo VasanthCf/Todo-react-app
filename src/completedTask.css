@@ -1,0 +1,35 @@
+.icons {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 2px;
+}
+
+.container-completed {
+}
+
+.title-completed {
+  padding: 10px;
+  background-color: rgb(208, 208, 208);
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.task-title {
+  display: inline;
+}
+.list-item-completed {
+  padding-bottom: 10px;
+
+  transition: all 0.3s ease-in-out;
+}
+.list-item-completed:hover {
+  transform: scale(1.02);
+}
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.empty p {
+  font-weight: bold;
+}

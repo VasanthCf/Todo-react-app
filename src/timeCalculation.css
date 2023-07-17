@@ -1,0 +1,9 @@
+@media screen and (max-width: 468px) {
+  .completed-paragraph {
+    font-size: 15px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    padding: 10px;
+  }
+}

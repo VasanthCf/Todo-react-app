@@ -1,0 +1,42 @@
+.DateRangePicker__calendar {
+  background-color: #e2e8f0; /* Change the background color as per your preference */
+}
+
+.DateRangePicker__day--selected {
+  background-color: #4299e1; /* Change the background color of selected dates */
+  color: #fff; /* Change the text color of selected dates */
+}
+
+.date-range_button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  padding-right: -30px;
+}
+
+.calender-icon {
+  color: #fff;
+  font-size: 32px;
+  margin: 0;
+  padding-left: 3px;
+  margin-right: -10px;
+}
+.blink {
+  color: rgb(0, 0, 0);
+}
+
+.nice-dates-popover {
+  left: 100px;
+  overflow-x: hidden;
+  max-width: 350px;
+}
+
+@media screen and (max-width: 568px) {
+  .nice-dates-popover {
+    left: 0px;
+    overflow-x: hidden;
+    max-width: 300px;
+  }
+}

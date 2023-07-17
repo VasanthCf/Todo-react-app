@@ -1,0 +1,11 @@
+.start-date-icon {
+  color: rgb(1, 218, 1);
+  padding-right: 5px;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .start-date-icon {
+    font-size: 15px;
+  }
+}

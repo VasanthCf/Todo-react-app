@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  width: 50%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .App {
+    width: 100%;
+  }
+}

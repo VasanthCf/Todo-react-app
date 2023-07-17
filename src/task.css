@@ -1,0 +1,121 @@
+.task-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-input {
+  margin-right: 10px;
+  opacity: 0;
+  transform: scale(0.8);
+  opacity: 0.5;
+  transform: scale(1.5);
+  accent-color: lightgreen;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.checkbox-input:checked {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.task-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.edit-input {
+  position: relative;
+  margin-right: 10px;
+  padding: 10px;
+  outline: none;
+  border: solid 1px lightgray;
+  font-size: 15px;
+}
+
+.edit-button,
+.save-button,
+.delete-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 14px;
+  background-color: #bfbfbf;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.edit-button:hover,
+.save-button:hover,
+.delete-button:hover {
+  background-color: #ebebeb;
+  transform: scale(1.2);
+  color: black;
+}
+
+.delete-button {
+  color: #fff;
+  background-color: #e74c3c;
+}
+.time {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.strike {
+  text-decoration-color: lightcoral;
+  text-decoration-thickness: 2px;
+}
+
+.due-icon {
+  position: relative;
+  color: red;
+  font-size: 22px;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .edit-input {
+    margin-right: 5px;
+    padding: 5px;
+
+    font-size: 14px;
+  }
+  .edit-button,
+  .save-button,
+  .delete-button {
+    padding: 6px 14px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  .edit-button:hover,
+  .save-button:hover,
+  .delete-button:hover {
+    background-color: #ebebeb;
+    transform: scale(1.15);
+    color: black;
+  }
+  .time {
+    font-size: 15px;
+    margin: 0px;
+  }
+  .day {
+    position: absolute;
+    left: 2%;
+    top: 69%;
+    font-size: 12px;
+    color: grey;
+  }
+
+  .due-icon {
+    position: relative;
+    color: red;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 5px;
+  }
+}
